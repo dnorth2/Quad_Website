@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.css'; // Make sure to import the CSS file
 import Alternate_Logo_Pink from './Alternate_Logo_Pink.png';
 import { Link } from 'react-router-dom';
-
+import sprintOneDemo from './sprint1_demo.mp4';
 function HomePage() {
   return (
     <div className="container">
@@ -18,8 +18,10 @@ function HomePage() {
       </p>
       {/* Placeholder for future video */}
       <div className="videoContainer">
-        {/* Video placeholder text */}
-        <p className="videoPlaceholder">Video Coming Soon...</p>
+        <video className="video" controls>
+          <source src={sprintOneDemo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
