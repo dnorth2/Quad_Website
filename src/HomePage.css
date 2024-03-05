@@ -1,0 +1,74 @@
+.container {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to change button size */
+    margin: 0 10px; /* Adds space between buttons */
+    background-color: transparent; /* Make button background transparent */
+    color: black; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    border: 2px solid black; /* Black border for the outline */
+    border-radius: 5px; /* Rounds the corners of the buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    background-color: black; /* Button color on hover/focus */
+    color: white; /* Text color on hover/focus */
+    outline: none; /* Remove outline to maintain the style */
+  }
+  
+  
+  .nav-link-active {
+    color: #d1005d; /* Example active link color */
+    border-bottom: 2px solid #d1005d; /* Example active link underline */
+  }
+  
+  
+  /* 
+  .header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  */
+  
+  .Alternate-logo {
+    width: auto; /* maintain aspect ratio */
+    height: auto; /* maintain aspect ratio */
+    max-width: 300px; /* adjust as needed */
+    margin: 0 auto; /* center the image */
+    display: block; /* allows margin to center the image */
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .videoContainer {
+    margin: auto;
+    max-width: 800px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 0; /* Removes space below video */
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .videoPlaceholder {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
