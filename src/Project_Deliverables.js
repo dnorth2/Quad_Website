@@ -14,6 +14,11 @@ function ProjectDeliverables() {
             </section>
 
             <section>
+                <h2>Sprint 2 Presentation</h2>
+                <p>To access Sprint 2 presentation, please click <a href="https://docs.google.com/presentation/d/1oJ4rM-MFu6cQLvo8PCkWd9ZTStyi8Aa7lYec0q-uxrU/edit?usp=sharing">here</a>.</p>
+            </section>
+
+            <section>
                 <h2>Source Code on GitHub</h2>
                 <p>You can find the source code on GitHub <a href="https://github.com/keatonrohlfs/QUAD">here</a>.</p>
             </section>
