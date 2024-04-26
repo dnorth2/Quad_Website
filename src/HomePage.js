@@ -18,7 +18,7 @@ function HomePage() {
       {/* Placeholder for YouTube link */}
       <div className="youtubeLink">
         <p>Check out our video on YouTube:</p>
-        <a href="https://www.youtube.com/watch?v=pE_NOYygVQE">Link to YouTube video</a>
+        <a href="https://youtu.be/fWDSWuxI1Go">Link to YouTube video</a>
       </div>
     </div>
   );
