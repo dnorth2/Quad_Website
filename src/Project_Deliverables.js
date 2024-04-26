@@ -22,6 +22,11 @@ function ProjectDeliverables() {
                 <h2>Source Code on GitHub</h2>
                 <p>You can find the source code on GitHub <a href="https://github.com/keatonrohlfs/QUAD">here</a>.</p>
             </section>
+
+            <section>
+                <h2>Project Report</h2>
+                <p>To download the Documentation in PDF format, please click <a href="/documentation.pdf">here</a>.</p>
+            </section>
         </div>
     );
 }
